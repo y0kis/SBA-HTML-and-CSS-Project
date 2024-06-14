@@ -1,0 +1,25 @@
+/* CSS (styles.css) */
+/* External CSS */
+body {
+    font-family: Arial, sans-serif;
+background-color: hsl(128, 67%, 43%);color: #333;margin: 0;padding: 0;}
+header,
+nav, 
+main,
+section, 
+footer {margin: 20px;padding: 10px;}
+nav ul {list-style-type: none;}
+nav ul li {display: inline;margin-right: 10px;}
+/* Internal CSS *
+/h1 {color: #0275d8;}
+/* Example of a complementary color */
+/* Inline CSS example */
+      /* <p style="color: red;">This paragraph is styled inline to be red. </p> */
+/* CSS Animations */@keyframes example {from {background-color: red;}to {background-color: yellow;}}
+section {animation-name: example;animation-duration: 4s;}/* Flexbox */main {display: flex;flex-direction: column;}
+/* Media query for responsive design */@media (max-width: 600px) 
+{nav
+ul
+li {display: block;margin-bottom: 5px;}}
+
+
